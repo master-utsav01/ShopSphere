@@ -1,0 +1,14 @@
+target/
+build/
+dist/
+node_modules/
+.m2/
+.idea/
+*.iml
+.DS_Store
+.env
+*.log
+coverage/
+backend/target/
+frontend/dist/
+frontend/node_modules/
