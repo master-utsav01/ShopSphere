@@ -347,11 +347,17 @@ On a Linux server or VPS:
 4. Set production secrets
 5. Run `docker compose up --build -d`
 6. Point your domain to the server IP
-7. Put Nginx/Traefik or a cloud load balancer with HTTPS in front if needed
+7. Put Nginx/Traefik or a cloud load balancer with HTTPS in front if needed<img width="1470" height="758" alt="Screenshot 2026-04-07 at 3 46 18 AM" src="https://github.com/user-attachments/assets/da8cafed-bb16-413b-95d7-01f772d68e39" />
+<img width="1470" height="758" alt="Screenshot 2026-04-07 at 3 45 56 AM" src="https://github.com/user-attachments/assets/5f0c73bf-7efa-46fa-b458-44a3265e61d4" />
+<img width="1470" height="758" alt="Screenshot 2026-04-07 at 3 45 46 AM" src="https://github.com/user-attachments/assets/8861fc0b-ad0b-46bd-9100-bf0459c7925a" />
 
-## Notes
+
+## Notes<img width="1470" height="758" alt="Screenshot 2026-04-07 at 3 45 33 AM" src="https://github.com/user-attachments/assets/86a4f8fb-721d-44a3-b547-6bae96f473d1" />
+
 
 - The backend is configured for MySQL in normal runtime.
 - Pagination responses are returned in a custom `PageResponse<T>` format.
 - The frontend expects the backend API base URL at `VITE_API_URL`, defaulting to `/api` for production reverse proxying.
 - The generated project is ready for further enhancements like payments, image uploads, wishlists, and integration tests.
+
+
